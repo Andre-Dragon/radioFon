@@ -134,7 +134,8 @@ img
 {
   max-width: 1114px;
   min-width: 320px;
-  width: 100%;
+	width: 100%;
+	min-height: 100vh;
 	margin: 0 auto;
 }
 
@@ -161,7 +162,7 @@ img
 .wrapper 
 {
   width: 90%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   display: -webkit-box;
 	display: -ms-flexbox;
@@ -170,6 +171,9 @@ img
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
 	flex-direction: column;
+  -webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	position: relative;
 	z-index: 1;
 }
