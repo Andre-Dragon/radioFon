@@ -34,6 +34,7 @@
   color: #F51E38;
   text-align: center;
 }
+
 .transition-loader-inner label 
 {
   font-size: 1em;
@@ -41,9 +42,9 @@
   opacity: 0;
   display: inline-block;
 }
+
 .transition-loader-inner label:after 
 {
-  font-family: FontAwesome;
   content: '●';
 }
 

@@ -33,7 +33,7 @@ body
 {
   min-height: 100vh;
   background-color: #000000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -110,7 +110,7 @@ img
 .header__title
 {
 	font-size: 3.125rem;
-	font-family: Playfair Display, serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 }
 
