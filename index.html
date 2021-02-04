@@ -32,8 +32,8 @@
   <title>RadioFon</title>
 
   <link rel="stylesheet" href="css/preloader.css">
-  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 
   <script src="js/index.js" defer></script>
@@ -86,131 +86,128 @@
               <form class="radio__navigation">
                 <h2 class="radio__title">Другие радиостанции</h2>
 
-                <ul class="radio__slaider">
+                <div class="slider__carousel">
+                  <ul class="radio__slider">
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/radiomarusya.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="marusyaRadio" name="radioStantion"
-                        data-radio-stantion="https://radio-holding.ru:9433/marusya_default">
-                      <span class="radio__name">Маруся FM</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/radiomarusya.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="marusyaRadio" name="radioStantion"
+                          data-radio-stantion="https://radio-holding.ru:9433/marusya_default">
+                        <span class="radio__name">Маруся FM</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/novoe-v2.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="newRadio" name="radioStantion"
-                        data-radio-stantion="https://icecast-newradio.cdnvideo.ru/newradio3">
-                      <span class="radio__name">Новое радио</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/novoe-v2.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="newRadio" name="radioStantion"
+                          data-radio-stantion="https://icecast-newradio.cdnvideo.ru/newradio3">
+                        <span class="radio__name">Новое радио</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/Record.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="recordRus" name="radioStantion"
-                        data-radio-stantion="http://air.radiorecord.ru:8102/rus_320">
-                      <span class="radio__name">Record Rus</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/Record.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="recordRus" name="radioStantion"
+                          data-radio-stantion="http://air.radiorecord.ru:8102/rus_320">
+                        <span class="radio__name">Record Rus</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/90.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="90years" name="radioStantion"
-                        data-radio-stantion="https://air.radiorecord.ru:805/sd90_320?411bddb9">
-                      <span class="radio__name">Радио 90-х</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/90.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="90years" name="radioStantion"
+                          data-radio-stantion="https://air.radiorecord.ru:805/sd90_320?411bddb9">
+                        <span class="radio__name">Радио 90-х</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/slowRadio.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="slowRadio" name="radioStantion"
-                        data-radio-stantion="http://air.radiorecord.ru:8102/mdl_320">
-                      <span class="radio__name">Медляк FM</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/slowRadio.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="slowRadio" name="radioStantion"
+                          data-radio-stantion="http://air.radiorecord.ru:8102/mdl_320">
+                        <span class="radio__name">Медляк FM</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/dorojnoe.png" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="roadRadio" name="radioStantion"
-                        data-radio-stantion="http://dorognoe.hostingradio.ru:8000/dorognoe">
-                      <span class="radio__name">Дорожное</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/dorojnoe.png" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="roadRadio" name="radioStantion"
+                          data-radio-stantion="http://dorognoe.hostingradio.ru:8000/dorognoe">
+                        <span class="radio__name">Дорожное</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/rusradio.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="RTLGroove" name="radioStantion"
-                        data-radio-stantion="https://rusradio.hostingradio.ru/rusradio96.aacp">
-                      <span class="radio__name">Русское радио</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/rusradio.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="rusRadio" name="radioStantion"
+                          data-radio-stantion="https://rusradio.hostingradio.ru/rusradio96.aacp">
+                        <span class="radio__name">Русское радио</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/europa-plus.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="europaPlus" name="radioStantion"
-                        data-radio-stantion="https://europaplus.hostingradio.ru:8014/europaplus320.mp3">
-                      <span class="radio__name">Europa Plus</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/europa-plus.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="europaPlus" name="radioStantion"
+                          data-radio-stantion="https://europaplus.hostingradio.ru:8014/europaplus320.mp3">
+                        <span class="radio__name">Europa Plus</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/retro_fm.jpg" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="retroFM" name="radioStantion"
-                        data-radio-stantion="https://retro.hostingradio.ru:8014/retro320.mp3">
-                      <span class="radio__name">Ретро FM</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/retro_fm.jpg" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="retroFM" name="radioStantion"
+                          data-radio-stantion="https://retro.hostingradio.ru:8014/retro320.mp3">
+                        <span class="radio__name">Ретро FM</span>
+                      </label>
+                    </li>
 
-                  <li class="radio__item">
-                    <label>
-                      <span class="radio__check">
-                        <img class="radio__img" src="images/radio/Energy.png" alt="обложка">
-                      </span>
-                      <input class="radio__btn" type="radio" id="energy" name="radioStantion"
-                        data-radio-stantion="http://ic4.101.ru:8000/region_energy_161">
-                      <span class="radio__name">Energy</span>
-                    </label>
-                  </li>
+                    <li class="radio__item">
+                      <label class="radio-input__label">
+                        <span class="radio__check">
+                          <img class="radio__img" src="images/radio/Energy.png" alt="обложка">
+                        </span>
+                        <input class="radio__btn" type="radio" id="energy" name="radioStantion"
+                          data-radio-stantion="http://ic4.101.ru:8000/region_energy_161">
+                        <span class="radio__name">Energy</span>
+                      </label>
+                    </li>
 
-                  <li>
-                    <div class="radio-container__btn container-btn__next">
-                      <p class="radio-slaider__btn btn__next"></p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-container__btn container-btn__prev">
-                      <p class="radio-slaider__btn btn__prev"></p>
-                    </div>
-                  </li>
+                  </ul>
+                  <!-- /.radio__slaider -->
 
-                </ul>
-                <!-- /.radio__slaider -->
+                  <a class="slider__control slider-control__prev" href="#" role="button"></a>
+                  <a class="slider__control slider-control__next" href="#" role="button"></a>
+
+                </div>
+                <!-- /.slider__carousel -->
+
               </form>
               <!-- /.radio-navigation -->
             </div>
