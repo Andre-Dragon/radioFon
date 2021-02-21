@@ -6,7 +6,7 @@ const radioPlayerInit = () =>
 {
 
   const $radioHeader = document.querySelector( '.radio__header' );
-  const radioHeaderBig = document.querySelector( '.radio-header__big' );
+  const $radioHeaderBig = document.querySelector( '.radio-header__big' );
   const $radioCoverImg = document.querySelector( '.radio-cover__img' );
   const $radioNavigation = document.querySelector( '.radio__navigation' ); 
   const $radioItem = document.querySelectorAll( '.radio__item' ); 
@@ -49,7 +49,7 @@ const radioPlayerInit = () =>
 
     const title = parent.querySelector( '.radio__name' ).textContent;
     const urlImg = parent.querySelector( '.radio__img' ).src;
-    radioHeaderBig.textContent = title;
+    $radioHeaderBig.textContent = title;
     $radioCoverImg.src = urlImg;
 
 
@@ -91,7 +91,7 @@ const multiItemSlider = ( () =>
       vHeight = window.innerHeight || doc.documentElement.clientHeight,
       elemFromPoint = ( x, y ) => 
       { 
-        return document.elementFromPoint(x, y); 
+        return document.elementFromPoint( x, y ); 
       };
 
     if ( rect.right < 0 || rect.bottom < 0 || 
@@ -101,10 +101,10 @@ const multiItemSlider = ( () =>
       }
 
     return (
-      element.contains(elemFromPoint(rect.left, rect.top)) || 
-      element.contains(elemFromPoint(rect.right, rect.top)) || 
-      element.contains(elemFromPoint(rect.right, rect.bottom)) || 
-      element.contains(elemFromPoint(rect.left, rect.bottom))
+      element.contains( elemFromPoint( rect.left, rect.top ) ) || 
+      element.contains( elemFromPoint( rect.right, rect.top ) ) || 
+      element.contains( elemFromPoint( rect.right, rect.bottom ) ) || 
+      element.contains( elemFromPoint( rect.left, rect.bottom ) )
     );
   };
 
@@ -349,7 +349,7 @@ const multiItemSlider = ( () =>
       document.addEventListener( 'visibilitychange', _handleVisibilityChange, false );
       window.addEventListener( 'resize', () => 
       {
-        var
+        let
           _index = 0,
           width = parseFloat( document.body.clientWidth );
         let index, count;
